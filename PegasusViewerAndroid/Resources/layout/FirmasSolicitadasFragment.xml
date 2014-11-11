@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ffffff">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".1"
+        android:gravity="top"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="#ffffff">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:background="@drawable/estilo_lista_firma">
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Antefirmas y/o Vo.Bo./Autorizaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1A1A1A"
+                android:layout_gravity="left"
+                android:paddingLeft="5dp" />
+            <View
+                android:layout_width="150dp"
+                android:layout_height="1dp"
+                android:background="@drawable/estilo_degrado_separador_gris" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Administrador de Pegasus, Adm. de Sistema, PEGASO TEC\nlinea\linea\nlinea\nlinea\nlinea\linea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1A1A1A"
+                android:layout_gravity="left"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:scrollbars="vertical"
+                android:id="@+id/txtAntefirmasFragment"
+                android:maxLines="4"
+                android:lines="4" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@drawable/estilo_lista_firma"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Comentarios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1A1A1A"
+                android:layout_gravity="left"
+                android:gravity="top"
+                android:paddingLeft="5dp" />
+            <View
+                android:layout_width="150dp"
+                android:layout_height="1dp"
+                android:background="@drawable/estilo_degrado_separador_gris" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Respuesta vobo vol 4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1A1A1A"
+                android:layout_gravity="top"
+                android:paddingLeft="5dp"
+                android:maxLines="4"
+                android:scrollbars="vertical"
+                android:id="@+id/txtRespuestaVoboFragment"
+                android:lines="4" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@drawable/estilo_lista_firma"
+            android:layout_marginTop="10dp">
+            <RadioGroup
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/radioGroup1">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Se regresa"
+                    android:textColor="#1A1A1A"
+                    android:id="@+id/radioButton1" />
+            </RadioGroup>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ddlFirmasSolicitadas" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@drawable/estilo_lista_firma"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</LinearLayout>

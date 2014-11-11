@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="pegasusviewerandroid.pegasusviewerandroid">
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="com.android.email.permission.READ_ATTACHMENT" />
+	<uses-sdk />
+	<application android:label="@string/app_name" android:theme="@style/AppTheme" android:icon="@drawable/pegasus_icon">
+		<!--		<activity android:name="pegasusviewerandroid.AbrirArchivoAdjuntoActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:pathPattern=".*\\.peg" />
+				<data android:host="*" />
+				<data android:mimeType="application/*" />
+			</intent-filter>
+			<meta-data />
+		</activity>-->
+	</application>
+</manifest>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ffffff">
+    <ImageView
+        android:id="@+id/imageView"
+        android:maxHeight="347px"
+        android:maxWidth="73px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/LogoPegaso" />
+    <EditText
+        android:id="@+id/editTextCorreo"
+        android:inputType="textEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:width="300sp"
+        android:hint="Usuario"
+        android:textColor="#292929"
+        android:textColorHint="#292929"
+        android:singleLine="true"
+        android:paddingLeft="7dip"
+        android:drawableLeft="@drawable/icono_usuario_sm" />
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:inputType="textPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:width="300sp"
+        android:hint="Contraseña"
+        android:textColor="#292929"
+        android:textColorHint="#292929"
+        android:singleLine="true"
+        android:paddingLeft="7dip"
+        android:drawableLeft="@drawable/icono_pass_sm" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="300sp"
+        android:id="@+id/buttonLogin"
+        android:layout_alignParentBottom="true"
+        android:textColor="#292929"
+        android:layout_marginBottom="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="40dp"
+        android:background="#313131">
+        <TextView
+            android:text="Aviso de Privacidad"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FF9900"
+            android:id="@+id/textViewAviso" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:id="@+id/textViewFooter" />
+    </LinearLayout>
+</LinearLayout>

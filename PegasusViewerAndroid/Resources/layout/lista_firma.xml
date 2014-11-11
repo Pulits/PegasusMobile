@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/estilo_lista_firma_principal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:orientation="horizontal"
+        android:background="#F0F0F0">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Folio: "
+            android:id="@+id/lblFolio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="5dp"
+            android:textColor="#FF9900"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            android:layout_weight=".7" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Fecha de Registro: "
+            android:id="@+id/lblFechaRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:textColor="#FF9900"
+            android:gravity="right"
+            android:paddingRight="5dp"
+            android:layout_weight=".3" />
+    </LinearLayout>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Promotor: "
+        android:id="@+id/lblPromotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dp"
+        android:paddingBottom="dp"
+        android:textColor="#313131"
+        android:paddingLeft="25dp"
+        android:layout_gravity="left" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Remitente: "
+        android:id="@+id/lblRemitente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:textColor="#313131"
+        android:paddingLeft="25dp"
+        android:layout_gravity="left" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#A8A8A8" />
+</LinearLayout>

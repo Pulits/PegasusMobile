@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutParaFirma"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ffffff">
+<!--    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:gravity="center_vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="#ffffff">
+        <ImageButton
+            android:src="@drawable/flecharegreso_sm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/imageButtonRegresoFirma" />
+        <TextView
+            android:text="Buzón para firma"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF9900"
+            android:paddingRight="10dp"
+            android:gravity="right"
+            android:id="@+id/textViewAviso" />
+    </LinearLayout>-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".1"
+        android:gravity="top"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="#ffffff">
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/estilo_degrado_separador" />
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeContenedor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ExpandableListView
+                android:id="@+id/lvExp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:groupIndicator="@drawable/group_indicator" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:background="#313131">
+        <TextView
+            android:text="Actualizado a las 6:00 p.m del 31/10/2014"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:id="@+id/textViewAviso" />
+    <!--        <Button
+            android:id="@+id/btnAvisos"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@drawable/estilo_boton_redondo"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="!"
+            android:layout_marginRight="10dp"
+            android:textColor="#313131" />-->
+    </LinearLayout>
+</LinearLayout>

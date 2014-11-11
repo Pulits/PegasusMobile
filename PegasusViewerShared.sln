@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PegasusViewerShared", "PegasusViewerShared\PegasusViewerShared.shproj", "{2E805D2F-A092-4DD1-BF12-8E3806C46D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peg@sus Viewer", "PegasusViewerAndroid\Peg@sus Viewer.csproj", "{B9983149-F8D7-47BA-A73E-08F5A2F86927}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9983149-F8D7-47BA-A73E-08F5A2F86927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9983149-F8D7-47BA-A73E-08F5A2F86927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9983149-F8D7-47BA-A73E-08F5A2F86927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9983149-F8D7-47BA-A73E-08F5A2F86927}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PegasusViewerAndroid\Peg@sus Viewer.csproj
+	EndGlobalSection
+EndGlobal

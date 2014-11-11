@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ffffff">
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/estilo_degrado_separador" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".1"
+        android:gravity="top"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="#ffffff">
+        <TextView
+            android:text="Servicio y Soporte en Tecnología Informática S.A. de C.V. (&quot;SSTI&quot;), con domicilio en Paseo de los Tamarindos 400-A, Piso 3, Bosques de las Lomas, México, Distrito Federal, guarda un profundo respeto con los datos personales y toda la información que obtiene de sus clientes reconociendo la importancia de la intimidad de los mismos, por lo tanto:\r\n\r\n En cumplimiento a lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares publicada en el Diario Oficial de la Federación el 05 de Julio de 2010 (la &quot;Ley&quot;), &quot;SSTI&quot; con la finalidad de garantizar la privacidad y el derecho a la autodeterminación informativa de sus clientes, pone a su disposición el presente Aviso de Privacidad, en relación con los datos que se hayan recibido y/o recolectado y/o lleguen a recibir y/o recolectar derivados de los servicios que se le prestan como cliente.\r\n\r\n La finalidad del tratamiento de los datos personales que se hayan recibido y/o recolectado y/o lleguen a recibir y/o recolectar es: (i) Ser tratados y utilizados por &quot;SSTI&quot; y/o afiliadas y/o subsidiarias, (ii) Incorporarlos en los instrumentos jurídicos que al efecto procedan para la debida formalización de la prestación de los servicios, (iii) Utilizarlos conforme a todas las disposiciones fiscales aplicables, (iv) Cumplir con lo dispuesto tanto por la Secretaria de Hacienda y Crédito Público como por el Servicio de Administración Tributaria, relativo a la solicitud que esta u otras Autoridades puedan hacer respecto a los servicios de facturación electrónica prestados por &quot;SSTI&quot; en su calidad de PAC (v) Realizar diversas notificaciones vía correo electrónico al titular de los datos, (vi) enviar diversa información al titular de los datos respecto de los servicios prestados, (vii) Las demás análogas que se deriven de la relación jurídica que se establece entre &quot;SSTI&quot; y su cliente.\r\n\r\n Para las finalidades señaladas en el presente Aviso de Privacidad, podemos recabar sus datos personales de distintas formas: cuando usted nos los proporciona directamente al llenar el denominado cuestionario de levantamiento; el requisitar el check list que le enviamos, cuando nos los proporciona por diversos medios, o cuando obtenemos información a través de otras fuentes que están permitidas por la Ley.\r\n\r\n Nos comprometemos que sus datos serán tratados bajo las más estrictas medidas de seguridad que garanticen su confidencialidad. Por lo que con el objeto de limitar el uso o divulgación tanto en el caso de datos personales contenidos en medios electrónicos como en documentos físicos, &quot;SSTI&quot; cuenta con los recursos técnicos, materiales y humanos necesarios para asegurar que los datos personales de sus clientes serán tratados en estricto apego a la &quot;Ley&quot; y resguardará los mismos bajo programas de computo y archivos con acceso limitado, aplicando medidas de seguridad, y permitiendo únicamente a personas que con motivo de sus funciones se le otorgan para determinados fines. Aunado a lo anterior &quot;SSTI&quot; suscribe con todo su personal convenios de confidencialidad, para respaldar el debido resguardo de los datos personales.\r\n\r\n Usted tendrá el beneficio de ejercer sus derechos de Acceso, Rectificación y Cancelación u Oposición de sus datos personales (Derechos &quot;ARCO&quot;), en cualquier momento, presentando su solicitud a &quot;SSTI&quot; , que cumpla con lo dispuesto por el artículo 29 de la &quot;Ley&quot;, a través del siguiente correo electrónico: mesadeservicio@pegasotecnologia.com, con la referencia o asunto: Datos Personales.\r\n\r\n Se informa al titular de los datos personales que &quot;SSTI&quot; podrá llegar a hacer la remisión de sus datos, pero no divulga, ni hace ninguna transferencia de los mismos que haya recibido y/o recolectado y/o llegue a recibir y/o recolectar a terceros sean nacionales o extranjeros, sino únicamente a las Autoridades competentes que así lo soliciten derivado del cumplimiento de ordenamientos legales aplicables y en cumplimiento a las excepciones previstas en el artículo 37 de la &quot;Ley&quot;.\r\n\r\n En el supuesto de que &quot;SSTI&quot; necesite modificar el contenido del presente Aviso de Privacidad, se procederá según sea el caso a dar a conocer los cambios aplicados a través de comunicaciones electrónicas (e-mail) o a través de su página en internet www.pegasotecnologia.com indicando la última versión del mismo. Por lo anterior &quot;SSTI&quot; se reserva el derecho bajo su exclusiva discreción, de cambiar, modificar, agregar o eliminar partes del presente Aviso de Privacidad en cualquier momento.\r\n\r\n Se presume que Usted consiente tácitamente en el tratamiento de sus datos personales mientras no manifieste su oposición, por lo que reconoce y acepta el presente Aviso, según el mismo pueda ser modificado o ajustado de tiempo en tiempo.\r\n\r\n"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#404040"
+            android:maxLines="22"
+            android:scrollbars="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_weight=".05"
+            android:id="@+id/textViewAvisoCompleto" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:background="#313131">
+        <TextView
+            android:text="Última actualización de aviso: junio de 2012"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:id="@+id/textViewAviso" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <TextView
+        android:text="Asunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#1A1A1A"
+        android:layout_gravity="left"
+        android:layout_weight=".5"
+        android:paddingLeft="5dp" />
+    <View
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:background="@drawable/estilo_degrado_separador_gris" />
+    <TextView
+        android:text="A externo \nCon Vo.Bo \nFolio: GDI14-61-0"
+        android:id="@+id/lblAsunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#404040"
+        android:layout_gravity="left"
+        android:layout_weight=".5"
+        android:paddingLeft="5dp" />
+    <TextView
+        android:text="Fecha Compromiso: 11/04/2014"
+        android:id="@+id/lblFechaCompromiso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:textColor="#404040"
+        android:gravity="right"
+        android:paddingRight="5dp" />
+    <TextView
+        android:text="Destino: Administración de Pegasus Pegaso TEC"
+        android:id="@+id/lblDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:textColor="#404040"
+        android:gravity="right"
+        android:paddingRight="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:background="#ffffff">
+        <Button
+            android:text="Ver"
+            android:textSize="12dip"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:width="50sp"
+            android:height="30sp"
+            android:layout_alignParentBottom="true"
+            android:textColor="#404040"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btnVer" />
+        <Button
+            android:text="Firmar"
+            android:textSize="12dip"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:width="50sp"
+            android:height="30sp"
+            android:layout_alignParentBottom="true"
+            android:textColor="#404040"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btnFirmar" />
+    </LinearLayout>
+</LinearLayout>
