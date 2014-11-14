@@ -96,22 +96,24 @@ namespace PegasusViewerAndroid
 		/// <param name="fecha">Fecha.</param>
 		public void InsertarFila (LayoutInflater inflater, string firma, string nombre, string fecha)
 		{
-			filaFirmasDocumento = new TableRow (Activity);
+			TableRow.LayoutParams parametrosFila = new TableRow.LayoutParams (0, TableRow.LayoutParams.WrapContent, 1f);
 
 			TextView txtFirma = (TextView)inflater.Inflate (Resource.Layout.TextViewTablaRow, null);
 			TextView txtNombre = (TextView)inflater.Inflate (Resource.Layout.TextViewTablaRow, null);
 			TextView txtFechaFirma = (TextView)inflater.Inflate (Resource.Layout.TextViewTablaRow, null);
+
+			filaFirmasDocumento = new TableRow (Activity);
 
 			txtFirma.Text = firma;
 			txtNombre.Text = nombre;
 			txtFechaFirma.Text = fecha;
 
 			///Los TableRow.LayoutParams es para hacer las columnas uniformes
-			filaFirmasDocumento.AddView (txtFirma, new TableRow.LayoutParams (0, TableRow.LayoutParams.WrapContent, 1f));
-			filaFirmasDocumento.AddView (txtNombre, new TableRow.LayoutParams (0, TableRow.LayoutParams.WrapContent, 1f));
-			filaFirmasDocumento.AddView (txtFechaFirma, new TableRow.LayoutParams (0, TableRow.LayoutParams.WrapContent, 1f));
+			filaFirmasDocumento.AddView (txtFirma, parametrosFila);
+			filaFirmasDocumento.AddView (txtNombre, parametrosFila);
+			filaFirmasDocumento.AddView (txtFechaFirma, parametrosFila);
 			tablaFirmasDocumento.AddView (filaFirmasDocumento);
 		}
 	}
 }
-
+	

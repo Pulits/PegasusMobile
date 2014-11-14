@@ -45,6 +45,12 @@
     <Reference Include="Xamarin.Android.Support.v4">
       <HintPath>..\..\..\..\Downloads\xamandroidsupportv4-18-20.0.0.4\xamandroidsupportv4-18-20.0.0.4\lib\android\Xamarin.Android.Support.v4.dll</HintPath>
     </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\Downloads\itextsharp-all-5.5.2\itextsharp-dll-core-wo_Drawing\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security">
+      <HintPath>..\..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Security\2.0.0.0__b03f5f7f11d50a3a\System.Security.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -59,6 +65,7 @@
     <Compile Include="FirmasSolicitadasFragment.cs" />
     <Compile Include="FormularioFragment.cs" />
     <Compile Include="AnexosFragment.cs" />
+    <Compile Include="AdaptadorAnexos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -648,6 +655,7 @@
     <AndroidResource Include="Resources\layout\AnexosFragment.xml" />
     <AndroidResource Include="Resources\drawable\estilo_lista_firma_principal.xml" />
     <AndroidResource Include="Resources\layout\TextViewTablaRow.xml" />
+    <AndroidResource Include="Resources\layout\item_lista_anexos.xml" />
   </ItemGroup>
   <Import Project="..\PegasusViewerShared\PegasusViewerShared.projitems" Label="Shared" Condition="Exists('..\PegasusViewerShared\PegasusViewerShared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />

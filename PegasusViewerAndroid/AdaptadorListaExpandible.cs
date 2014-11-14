@@ -14,7 +14,7 @@ namespace PegasusViewerAndroid
 		readonly Activity _contexto;
 		public List<ParaFirma> _listaCorreos;
 
-		public AdaptadorListaExpandible (Activity contexto, List<ParaFirma> listaCorreos)
+		public AdaptadorListaExpandible (Activity contexto, List<ParaFirma> listaCorreos) : base()
 		{
 			_contexto = contexto;
 			_listaCorreos = listaCorreos;
@@ -30,6 +30,12 @@ namespace PegasusViewerAndroid
 			return childPosition;
 		}
 
+		/// <param name="groupPosition">the position of the group for which the children
+		///  count should be returned</param>
+		/// <summary>
+		/// Únicamente tenemos una vista "hijo"
+		/// </summary>
+		/// <returns>To be added.</returns>
 		public override int GetChildrenCount (int groupPosition)
 		{
 			return 1;

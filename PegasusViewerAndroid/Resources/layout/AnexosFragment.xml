@@ -30,5 +30,20 @@
                 android:gravity="left"
                 android:paddingLeft="5dp" />
         </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1"
+            android:gravity="top"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:background="#ffffff">
+            <ListView
+                android:id="@+id/listaAnexos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:scrollbarStyle="outsideOverlay" />
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>

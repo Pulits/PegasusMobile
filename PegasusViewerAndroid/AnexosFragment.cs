@@ -9,6 +9,7 @@ namespace PegasusViewerAndroid
 {
 	public class AnexosFragment : Fragment
 	{
+		ListView listaAnexos;
 		public AnexosFragment ()
 		{
 		}
@@ -21,6 +22,8 @@ namespace PegasusViewerAndroid
 			LayoutInflater localInflater = inflater.CloneInContext (contextThemeWrapper);
 
 			var view = localInflater.Inflate (Resource.Layout.AnexosFragment, container, false);
+
+			listaAnexos = view.FindViewById<ListView> (Resource.Id.listaAnexos);
 
 			return view;
 		}

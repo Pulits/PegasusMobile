@@ -53,6 +53,8 @@
                 android:id="@+id/lvExp"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
+                android:divider="@android:color/transparent"
+                android:scrollbarStyle="outsideOverlay"
                 android:groupIndicator="@drawable/group_indicator" />
         </android.support.v4.widget.SwipeRefreshLayout>
     </LinearLayout>

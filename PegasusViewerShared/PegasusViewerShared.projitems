@@ -12,5 +12,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Helper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ParaFirma.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PreferenciasAndroid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Anexo.cs" />
   </ItemGroup>
 </Project>

@@ -24,6 +24,10 @@ namespace PegasusViewerAndroid
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -607,122 +611,131 @@ namespace PegasusViewerAndroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f090026
-			public const int action_send = 2131296294;
+			// aapt resource value: 0x7f090029
+			public const int action_send = 2131296297;
 			
-			// aapt resource value: 0x7f090025
-			public const int action_warning = 2131296293;
-			
-			// aapt resource value: 0x7f09000f
-			public const int btnFirmar = 2131296271;
-			
-			// aapt resource value: 0x7f09000e
-			public const int btnVer = 2131296270;
-			
-			// aapt resource value: 0x7f090017
-			public const int buttonLogin = 2131296279;
-			
-			// aapt resource value: 0x7f090008
-			public const int checkBox1 = 2131296264;
-			
-			// aapt resource value: 0x7f090007
-			public const int checkFirmar = 2131296263;
-			
-			// aapt resource value: 0x7f090023
-			public const int contenedorFragmento = 2131296291;
-			
-			// aapt resource value: 0x7f090006
-			public const int ddlFirmasSolicitadas = 2131296262;
-			
-			// aapt resource value: 0x7f09001f
-			public const int editTextContenidoVoBo = 2131296287;
-			
-			// aapt resource value: 0x7f090015
-			public const int editTextCorreo = 2131296277;
-			
-			// aapt resource value: 0x7f090016
-			public const int editTextPassword = 2131296278;
-			
-			// aapt resource value: 0x7f090014
-			public const int imageView = 2131296276;
-			
-			// aapt resource value: 0x7f090019
-			public const int layoutParaFirma = 2131296281;
-			
-			// aapt resource value: 0x7f090022
-			public const int layoutParaFirmaVoBo = 2131296290;
-			
-			// aapt resource value: 0x7f09000b
-			public const int lblAsunto = 2131296267;
-			
-			// aapt resource value: 0x7f09000d
-			public const int lblDestino = 2131296269;
-			
-			// aapt resource value: 0x7f09000c
-			public const int lblFechaCompromiso = 2131296268;
-			
-			// aapt resource value: 0x7f090011
-			public const int lblFechaRegistro = 2131296273;
+			// aapt resource value: 0x7f090028
+			public const int action_warning = 2131296296;
 			
 			// aapt resource value: 0x7f090010
-			public const int lblFolio = 2131296272;
+			public const int btnFirmar = 2131296272;
 			
-			// aapt resource value: 0x7f090012
-			public const int lblPromotor = 2131296274;
-			
-			// aapt resource value: 0x7f090013
-			public const int lblRemitente = 2131296275;
-			
-			// aapt resource value: 0x7f09001b
-			public const int lvExp = 2131296283;
-			
-			// aapt resource value: 0x7f090005
-			public const int radioButton1 = 2131296261;
-			
-			// aapt resource value: 0x7f090009
-			public const int radioButton2 = 2131296265;
-			
-			// aapt resource value: 0x7f090004
-			public const int radioGroup1 = 2131296260;
-			
-			// aapt resource value: 0x7f09001c
-			public const int radioGroupAutorizado = 2131296284;
-			
-			// aapt resource value: 0x7f09001e
-			public const int radioGroupAutorizadoNo = 2131296286;
-			
-			// aapt resource value: 0x7f09001d
-			public const int radioGroupAutorizadoSi = 2131296285;
+			// aapt resource value: 0x7f09000f
+			public const int btnVer = 2131296271;
 			
 			// aapt resource value: 0x7f09001a
-			public const int swipeContenedor = 2131296282;
+			public const int buttonLogin = 2131296282;
 			
-			// aapt resource value: 0x7f090021
-			public const int tblFirmasDocumentos = 2131296289;
+			// aapt resource value: 0x7f090009
+			public const int checkBox1 = 2131296265;
 			
-			// aapt resource value: 0x7f090020
-			public const int tblFirmasDocumentosHeader = 2131296288;
+			// aapt resource value: 0x7f090011
+			public const int checkBoxAnexos = 2131296273;
 			
-			// aapt resource value: 0x7f090024
-			public const int textItem = 2131296292;
+			// aapt resource value: 0x7f090008
+			public const int checkFirmar = 2131296264;
 			
-			// aapt resource value: 0x7f090001
-			public const int textViewAviso = 2131296257;
+			// aapt resource value: 0x7f090026
+			public const int contenedorFragmento = 2131296294;
 			
-			// aapt resource value: 0x7f090000
-			public const int textViewAvisoCompleto = 2131296256;
+			// aapt resource value: 0x7f090007
+			public const int ddlFirmasSolicitadas = 2131296263;
+			
+			// aapt resource value: 0x7f090022
+			public const int editTextContenidoVoBo = 2131296290;
 			
 			// aapt resource value: 0x7f090018
-			public const int textViewFooter = 2131296280;
+			public const int editTextCorreo = 2131296280;
 			
-			// aapt resource value: 0x7f090002
-			public const int txtAntefirmasFragment = 2131296258;
+			// aapt resource value: 0x7f090019
+			public const int editTextPassword = 2131296281;
+			
+			// aapt resource value: 0x7f090017
+			public const int imageView = 2131296279;
+			
+			// aapt resource value: 0x7f09001c
+			public const int layoutParaFirma = 2131296284;
+			
+			// aapt resource value: 0x7f090025
+			public const int layoutParaFirmaVoBo = 2131296293;
+			
+			// aapt resource value: 0x7f09000c
+			public const int lblAsunto = 2131296268;
+			
+			// aapt resource value: 0x7f09000e
+			public const int lblDestino = 2131296270;
+			
+			// aapt resource value: 0x7f09000d
+			public const int lblFechaCompromiso = 2131296269;
+			
+			// aapt resource value: 0x7f090014
+			public const int lblFechaRegistro = 2131296276;
+			
+			// aapt resource value: 0x7f090013
+			public const int lblFolio = 2131296275;
+			
+			// aapt resource value: 0x7f090015
+			public const int lblPromotor = 2131296277;
+			
+			// aapt resource value: 0x7f090016
+			public const int lblRemitente = 2131296278;
+			
+			// aapt resource value: 0x7f090000
+			public const int listaAnexos = 2131296256;
+			
+			// aapt resource value: 0x7f09001e
+			public const int lvExp = 2131296286;
+			
+			// aapt resource value: 0x7f090006
+			public const int radioButton1 = 2131296262;
 			
 			// aapt resource value: 0x7f09000a
-			public const int txtContenidoFormularioFragment = 2131296266;
+			public const int radioButton2 = 2131296266;
+			
+			// aapt resource value: 0x7f090005
+			public const int radioGroup1 = 2131296261;
+			
+			// aapt resource value: 0x7f09001f
+			public const int radioGroupAutorizado = 2131296287;
+			
+			// aapt resource value: 0x7f090021
+			public const int radioGroupAutorizadoNo = 2131296289;
+			
+			// aapt resource value: 0x7f090020
+			public const int radioGroupAutorizadoSi = 2131296288;
+			
+			// aapt resource value: 0x7f09001d
+			public const int swipeContenedor = 2131296285;
+			
+			// aapt resource value: 0x7f090024
+			public const int tblFirmasDocumentos = 2131296292;
+			
+			// aapt resource value: 0x7f090023
+			public const int tblFirmasDocumentosHeader = 2131296291;
+			
+			// aapt resource value: 0x7f090027
+			public const int textItem = 2131296295;
+			
+			// aapt resource value: 0x7f090002
+			public const int textViewAviso = 2131296258;
+			
+			// aapt resource value: 0x7f090001
+			public const int textViewAvisoCompleto = 2131296257;
+			
+			// aapt resource value: 0x7f09001b
+			public const int textViewFooter = 2131296283;
 			
 			// aapt resource value: 0x7f090003
-			public const int txtRespuestaVoboFragment = 2131296259;
+			public const int txtAntefirmasFragment = 2131296259;
+			
+			// aapt resource value: 0x7f09000b
+			public const int txtContenidoFormularioFragment = 2131296267;
+			
+			// aapt resource value: 0x7f090004
+			public const int txtRespuestaVoboFragment = 2131296260;
+			
+			// aapt resource value: 0x7f090012
+			public const int txtTipoAnexo = 2131296274;
 			
 			static Id()
 			{
@@ -756,25 +769,28 @@ namespace PegasusViewerAndroid
 			public const int item_lista = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int lista_firma = 2130903046;
+			public const int item_lista_anexos = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int Main = 2130903047;
+			public const int lista_firma = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int ParaFirma = 2130903048;
+			public const int Main = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int RespuestaFirmaFragment = 2130903049;
+			public const int ParaFirma = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int RespuestaVoBo = 2130903050;
+			public const int RespuestaFirmaFragment = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int TextViewAdaptadorDropDown = 2130903051;
+			public const int RespuestaVoBo = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int TextViewTablaRow = 2130903052;
+			public const int TextViewAdaptadorDropDown = 2130903052;
+			
+			// aapt resource value: 0x7f03000d
+			public const int TextViewTablaRow = 2130903053;
 			
 			static Layout()
 			{
