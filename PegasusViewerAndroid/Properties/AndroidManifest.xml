@@ -4,16 +4,17 @@
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 	<uses-permission android:name="com.android.email.permission.READ_ATTACHMENT" />
+	<uses-permission android:name="com.android.email.permission.ACCESS_ALL_DOWNLOADS" />
 	<uses-sdk />
-	<application>
-		<activity android:name="pegasusviewerandroid.AbrirArchivoAdjuntoActivity">
+	<application android:theme="@style/AppTheme" android:icon="@drawable/pegasus_icon">
+		<activity android:name="pegasusviewerandroid.AbrirArchivoAdjuntoActivity" android:label="Peg@sus">
 			<intent-filter>
-					<action android:name="android.intent.action.VIEW" />
-					<category android:name="android.intent.category.DEFAULT" />
-					<category android:name="android.intent.category.BROWSABLE" />
-					<data android:pathPattern=".*\\.peg" />
-					<data android:host="*" />
-					<data android:mimeType="application/*" />
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:pathPattern=".*\\.pfx" />
+				<data android:host="*" />
+				<data android:mimeType="application/*" />
 			</intent-filter>
 		</activity>
 	</application>

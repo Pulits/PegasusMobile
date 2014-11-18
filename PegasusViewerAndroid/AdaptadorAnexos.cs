@@ -22,7 +22,7 @@ namespace PegasusViewerAndroid
 
 		public override int Count
 		{
-			get { return 0; }
+			get { return _listaAnexos.Count; }
 		}
 
 		public override Java.Lang.Object GetItem (int position)
@@ -32,7 +32,7 @@ namespace PegasusViewerAndroid
 
 		public override long GetItemId (int position)
 		{
-			throw new NotImplementedException ();
+			return position;
 		}
 
 		public override View GetView (int position, View convertView, ViewGroup parent)

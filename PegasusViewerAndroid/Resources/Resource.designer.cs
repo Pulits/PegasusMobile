@@ -611,11 +611,11 @@ namespace PegasusViewerAndroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f090029
-			public const int action_send = 2131296297;
-			
 			// aapt resource value: 0x7f090028
-			public const int action_warning = 2131296296;
+			public const int action_send = 2131296296;
+			
+			// aapt resource value: 0x7f090027
+			public const int action_warning = 2131296295;
 			
 			// aapt resource value: 0x7f090010
 			public const int btnFirmar = 2131296272;
@@ -623,41 +623,38 @@ namespace PegasusViewerAndroid
 			// aapt resource value: 0x7f09000f
 			public const int btnVer = 2131296271;
 			
-			// aapt resource value: 0x7f09001a
-			public const int buttonLogin = 2131296282;
+			// aapt resource value: 0x7f090019
+			public const int buttonLogin = 2131296281;
 			
 			// aapt resource value: 0x7f090009
 			public const int checkBox1 = 2131296265;
 			
-			// aapt resource value: 0x7f090011
-			public const int checkBoxAnexos = 2131296273;
-			
 			// aapt resource value: 0x7f090008
 			public const int checkFirmar = 2131296264;
 			
-			// aapt resource value: 0x7f090026
-			public const int contenedorFragmento = 2131296294;
+			// aapt resource value: 0x7f090025
+			public const int contenedorFragmento = 2131296293;
 			
 			// aapt resource value: 0x7f090007
 			public const int ddlFirmasSolicitadas = 2131296263;
 			
-			// aapt resource value: 0x7f090022
-			public const int editTextContenidoVoBo = 2131296290;
-			
-			// aapt resource value: 0x7f090018
-			public const int editTextCorreo = 2131296280;
-			
-			// aapt resource value: 0x7f090019
-			public const int editTextPassword = 2131296281;
+			// aapt resource value: 0x7f090021
+			public const int editTextContenidoVoBo = 2131296289;
 			
 			// aapt resource value: 0x7f090017
-			public const int imageView = 2131296279;
+			public const int editTextCorreo = 2131296279;
 			
-			// aapt resource value: 0x7f09001c
-			public const int layoutParaFirma = 2131296284;
+			// aapt resource value: 0x7f090018
+			public const int editTextPassword = 2131296280;
 			
-			// aapt resource value: 0x7f090025
-			public const int layoutParaFirmaVoBo = 2131296293;
+			// aapt resource value: 0x7f090016
+			public const int imageView = 2131296278;
+			
+			// aapt resource value: 0x7f09001b
+			public const int layoutParaFirma = 2131296283;
+			
+			// aapt resource value: 0x7f090024
+			public const int layoutParaFirmaVoBo = 2131296292;
 			
 			// aapt resource value: 0x7f09000c
 			public const int lblAsunto = 2131296268;
@@ -668,23 +665,23 @@ namespace PegasusViewerAndroid
 			// aapt resource value: 0x7f09000d
 			public const int lblFechaCompromiso = 2131296269;
 			
-			// aapt resource value: 0x7f090014
-			public const int lblFechaRegistro = 2131296276;
-			
 			// aapt resource value: 0x7f090013
-			public const int lblFolio = 2131296275;
+			public const int lblFechaRegistro = 2131296275;
+			
+			// aapt resource value: 0x7f090012
+			public const int lblFolio = 2131296274;
+			
+			// aapt resource value: 0x7f090014
+			public const int lblPromotor = 2131296276;
 			
 			// aapt resource value: 0x7f090015
-			public const int lblPromotor = 2131296277;
-			
-			// aapt resource value: 0x7f090016
-			public const int lblRemitente = 2131296278;
+			public const int lblRemitente = 2131296277;
 			
 			// aapt resource value: 0x7f090000
 			public const int listaAnexos = 2131296256;
 			
-			// aapt resource value: 0x7f09001e
-			public const int lvExp = 2131296286;
+			// aapt resource value: 0x7f09001d
+			public const int lvExp = 2131296285;
 			
 			// aapt resource value: 0x7f090006
 			public const int radioButton1 = 2131296262;
@@ -695,26 +692,26 @@ namespace PegasusViewerAndroid
 			// aapt resource value: 0x7f090005
 			public const int radioGroup1 = 2131296261;
 			
-			// aapt resource value: 0x7f09001f
-			public const int radioGroupAutorizado = 2131296287;
-			
-			// aapt resource value: 0x7f090021
-			public const int radioGroupAutorizadoNo = 2131296289;
+			// aapt resource value: 0x7f09001e
+			public const int radioGroupAutorizado = 2131296286;
 			
 			// aapt resource value: 0x7f090020
-			public const int radioGroupAutorizadoSi = 2131296288;
+			public const int radioGroupAutorizadoNo = 2131296288;
 			
-			// aapt resource value: 0x7f09001d
-			public const int swipeContenedor = 2131296285;
+			// aapt resource value: 0x7f09001f
+			public const int radioGroupAutorizadoSi = 2131296287;
 			
-			// aapt resource value: 0x7f090024
-			public const int tblFirmasDocumentos = 2131296292;
+			// aapt resource value: 0x7f09001c
+			public const int swipeContenedor = 2131296284;
 			
 			// aapt resource value: 0x7f090023
-			public const int tblFirmasDocumentosHeader = 2131296291;
+			public const int tblFirmasDocumentos = 2131296291;
 			
-			// aapt resource value: 0x7f090027
-			public const int textItem = 2131296295;
+			// aapt resource value: 0x7f090022
+			public const int tblFirmasDocumentosHeader = 2131296290;
+			
+			// aapt resource value: 0x7f090026
+			public const int textItem = 2131296294;
 			
 			// aapt resource value: 0x7f090002
 			public const int textViewAviso = 2131296258;
@@ -722,8 +719,8 @@ namespace PegasusViewerAndroid
 			// aapt resource value: 0x7f090001
 			public const int textViewAvisoCompleto = 2131296257;
 			
-			// aapt resource value: 0x7f09001b
-			public const int textViewFooter = 2131296283;
+			// aapt resource value: 0x7f09001a
+			public const int textViewFooter = 2131296282;
 			
 			// aapt resource value: 0x7f090003
 			public const int txtAntefirmasFragment = 2131296259;
@@ -734,8 +731,8 @@ namespace PegasusViewerAndroid
 			// aapt resource value: 0x7f090004
 			public const int txtRespuestaVoboFragment = 2131296260;
 			
-			// aapt resource value: 0x7f090012
-			public const int txtTipoAnexo = 2131296274;
+			// aapt resource value: 0x7f090011
+			public const int txtTipoAnexo = 2131296273;
 			
 			static Id()
 			{
